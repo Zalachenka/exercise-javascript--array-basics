@@ -10,10 +10,10 @@ const thirdShoesList = shoesList.shift();
 console.log(shoesList);
 console.log(thirdShoesList);
 
-const fourthShoeslist = shoesList.push("Raptou");
+const fourthShoesList = shoesList.push("Raptou");
 
 console.log(shoesList);
-console.log(fourthShoeslist);
+console.log(fourthShoesList);
 
 const fifthShoesList = shoesList.pop();
 
@@ -25,8 +25,8 @@ const cutShoesList = shoesList.slice(1,4);
 console.log(shoesList);
 console.log(cutShoesList);
 
-const otherShoeslist = ["Mickey", "Minnie", "Dingo", "Pluto", "Max"];
-const finalList = otherShoeslist.concat(["Winnie", "Tigrou", "Porcinet"]);
+const otherShoesList = ["Mickey", "Minnie", "Dingo", "Pluto", "Max"];
+const finalList = otherShoesList.concat(["Winnie", "Tigrou", "Porcinet"]);
 
-console.log(otherShoeslist);
+console.log(otherShoesList);
 console.log(finalList);
